@@ -25,7 +25,7 @@
         "jsx-quotes":["warn", "prefer-double"],
         "prefer-const":"warn",
         "indent": ["warn", 2],
-        "comma-dangle":["warn", "always"],
+        "comma-dangle":["warn", "only-multiline"],
         "semi":["warn", "always"]
     }
 }
