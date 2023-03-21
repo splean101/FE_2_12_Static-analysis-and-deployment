@@ -19,5 +19,13 @@
     ],
     "ignorePatterns": "webpack.config.js",
     "rules": {
+        "no-unused-vars":"warn",
+        "no-console":"error",
+        "quotes":["warn", "single"],
+        "jsx-quotes":["warn", "prefer-double"],
+        "prefer-const":"warn",
+        "indent": ["warn", 2],
+        "comma-dangle":["warn", "always"],
+        "semi":["warn", "always"]
     }
 }
